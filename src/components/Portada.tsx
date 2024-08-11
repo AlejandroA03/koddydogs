@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Portada = () => {
   return (
-    <div className="bg-[#83B4FF] min-h-[32rem] flex flex-row items-center justify-center pt-10">
-      <div className="grid grid-rows-2 grid-flow-col px-10 mt-5 pt-16 justify-items-center">
+    <div className="bg-[#83B4FF] flex flex-row place-items-end justify-center pt-10 h-fit">
+      <div className="grid grid-rows-2 grid-flow-col mt-20 -mb-28 mx-20">
         <div className="size-32 rounded-full bg-center border-4 border-white shadow-lg">
           <Image
             src={yorkshire}
@@ -14,7 +14,7 @@ const Portada = () => {
             className="rounded-full"
           />
         </div>
-        <div className="size-48 rounded-full bg-center border-4 border-white shadow-lg ml-16">
+        <div className="size-48 rounded-full bg-center border-4 border-white shadow-lg -mt-10">
           <Image
             src={yorkshire}
             width="192"
@@ -22,7 +22,7 @@ const Portada = () => {
             className="rounded-full"
           />
         </div>
-        <div className="size-64 rounded-full bg-center border-4 border-white shadow-lg mt-10">
+        <div className="size-64 rounded-full bg-center border-4 border-white shadow-lg mt-10 -ml-16">
           <Image
             src={yorkshire}
             width="248"
@@ -31,8 +31,8 @@ const Portada = () => {
           />
         </div>
       </div>
-      <div>
-        <h1 className="text-3xl font-bold text-gray-800 mb-6">
+      <div className="p-10 flex flex-col self-center">
+        <h1 className="text-5xl font-bold text-gray-800 mb-6 text-center px-10">
           ¡Consigue tu mascota!
         </h1>
         <WhatsappButton />

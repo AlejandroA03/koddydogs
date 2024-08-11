@@ -1,11 +1,17 @@
+import wpplogo from "../../public/whatsapp.png";
+import Image from "next/image";
 const WhatsappButton: React.FC = () => {
   const whatsappUrl = `https://wa.me/+573127077098`;
 
   return (
-    <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-      <span className="text-green-500 hover:text-green-700 font-bold">
-        Chatea con nosotros en WhatsApp
-      </span>
+    <a
+      href={whatsappUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-green-500 text-white font-bold rounded-lg p-2 flex flex-row w-fit self-center "
+    >
+      <Image src={wpplogo} width="25" alt="logo" className="m-1" />
+      <span className="flex items-center ml-2">¡Asesoría inmediata!</span>
     </a>
   );
 };
