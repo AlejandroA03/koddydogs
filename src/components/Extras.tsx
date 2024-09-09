@@ -18,7 +18,7 @@ const Extras = () => {
         </div>
         <div>
           <Image src={cert} alt="certificado" width="100" />
-          <p>Kit de cuidado</p>
+          <p>Kit de cuidado.</p>
         </div>
       </div>
     </div>
