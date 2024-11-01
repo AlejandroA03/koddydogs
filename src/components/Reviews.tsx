@@ -29,7 +29,7 @@ const Reviews = () => {
 
   return (
     <div className="flex flex-col justify-center items-center">
-      <h2 className="flex text-black text-4xl font-bold p-5 mt-5">
+      <h2 className="flex text-black text-5xl font-bold p-5 mt-5">
         Testimonios
       </h2>
       <div className="flex flex-col transition-opacity duration-500">

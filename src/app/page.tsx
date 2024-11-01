@@ -1,6 +1,7 @@
 import Extras from "@/components/Extras";
 import NavBar from "@/components/Navbar";
 import Portada from "@/components/Portada";
+import Races from "@/components/Races";
 import Reviews from "@/components/Reviews";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Portada />
       <Reviews />
       <Extras />
+      <Races />
     </main>
   );
 }
