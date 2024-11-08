@@ -2,6 +2,8 @@
 import emailjs from "@emailjs/browser";
 import { FormEvent, useRef } from "react";
 import Swal from "sweetalert2";
+import Image from "next/image";
+import logo from "../../public/logo.jpg";
 
 const Contact: React.FC = (): React.ReactElement => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -41,11 +43,26 @@ const Contact: React.FC = (): React.ReactElement => {
     <>
       <div className="flex flex-col justify-center items-center text-black">
         <h2 className="flex text-5xl font-bold p-5 mt-5">Contacto</h2>
-        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-stretch w-[70%]">
+          <div>
+            <Image
+              src={logo}
+              width="250"
+              alt="logo"
+              className="rounded-full ml-14"
+            />
+          </div>
+          <div className="text-center">
+            <p>
+              Siguenos en nuestras redes sociales, tambien puedes dar click a
+              los botones de whatsapp para ponerte en contacto con nosotros o
+              llena el siguiente formulario para enviarnos un correo.
+            </p>
+          </div>
           <form
             ref={formRef}
             onSubmit={handleSubmit}
-            className="flex flex-col justify-center items-center mt-[30px]"
+            className="flex flex-col justify-center items-center"
           >
             <input
               className="text-black h-[40px] w-[256px] bg-gray-300 rounded-[15px] px-2 outline-0 m-[10px]"
