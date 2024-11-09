@@ -11,7 +11,7 @@ const links = [
 const NavBar: React.FC = () => {
   return (
     <nav>
-      <div className="flex items-center justify-between flex-wrap bg-[#FDFFE2] p-1 px-5 drop-shadow-xl z-10 fixed w-full">
+      <div className="flex items-center justify-between flex-wrap bg-[#FDFFE2] p-1 px-5 drop-shadow-xl z-10 fixed w-screen">
         <Link href="/">
           <Image
             src={logo}

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Portada = () => {
   return (
-    <div className="bg-[#83B4FF] flex flex-row place-items-end justify-center pt-10 h-fit">
+    <div className="bg-[#83B4FF] flex flex-row place-items-end justify-center pt-10 h-fit w-screen">
       <div className="grid grid-rows-2 grid-flow-col mt-20 -mb-28 mx-20">
         <div className="size-32 rounded-full bg-center border-4 border-white shadow-lg">
           <Image
@@ -22,7 +22,7 @@ const Portada = () => {
             className="rounded-full"
           />
         </div>
-        <div className="size-64 rounded-full bg-center border-4 border-white shadow-lg mt-10 -ml-16">
+        <div className="size-64 rounded-full bg-center border-4 border-white shadow-lg mt-10 -ml-16 sm:size-16">
           <Image
             src={yorkshire}
             width="248"

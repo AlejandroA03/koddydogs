@@ -6,6 +6,9 @@ const Footer = () => {
           <span className="text-sm text-black sm:text-center">
             © 2024 <a className="hover:underline">Koddydogs</a>
           </span>
+          <span className="text-sm text-black sm:text-center">
+            <a className="hover:underline">+57 3017247426</a>
+          </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a
               href="https://www.facebook.com/profile.php?id=61552509125175"

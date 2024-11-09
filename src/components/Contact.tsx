@@ -120,7 +120,7 @@ const Contact: React.FC = (): React.ReactElement => {
             <input
               className="text-black h-[40px] w-[256px] bg-gray-300 rounded-[15px] px-2 outline-0 m-[10px]"
               type="text"
-              name="name"
+              name="user_name"
               placeholder="Nombre"
               required
             />
