@@ -1,5 +1,7 @@
 import Image from "next/image";
 import cert from "../../public/certificado.jpg";
+import recomendations from "../../public/recomendaciones.jpg";
+import kit from "../../public/kit.jpeg";
 
 const Extras = () => {
   return (
@@ -19,8 +21,8 @@ const Extras = () => {
         </div>
         <div className="flex flex-col justify-center items-center w-80">
           <Image
-            src={cert}
-            alt="certificado"
+            src={recomendations}
+            alt="recomendaciones"
             width="200"
             className="rounded-xl"
           />
@@ -30,7 +32,7 @@ const Extras = () => {
         </div>
         <div className="flex flex-col justify-center items-center w-80">
           <Image
-            src={cert}
+            src={kit}
             alt="certificado"
             width="200"
             className="rounded-xl"

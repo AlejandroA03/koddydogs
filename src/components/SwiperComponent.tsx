@@ -32,9 +32,10 @@ const SwiperComponent = () => {
             width="250"
             className="rounded-2xl border-slate-700 border-2 shadow-md shadow-black"
           />
-          <p className="text-center font-semibold p-5">Pureza certificada</p>
+          <p className="text-center font-semibold p-5">Golden Retriever</p>
           <p className="text-center font-normal p-5">
-            Aqui ira la descripcion larga sobre los aspectos positivos del perro
+            Raza amigable y juguetona, perfecta para familias. Un compañero leal
+            con energía para disfrutar al aire libre y en casa.
           </p>
         </div>
       </SwiperSlide>
@@ -46,9 +47,10 @@ const SwiperComponent = () => {
             width="250"
             className="rounded-2xl border-slate-700 border-2 shadow-md shadow-black"
           />
-          <p className="text-center font-semibold p-5">Pureza certificada</p>
+          <p className="text-center font-semibold p-5">Chihuahua</p>
           <p className="text-center font-normal p-5">
-            Aqui ira la descripcion larga sobre los aspectos positivos del perro
+            Raza pequeña con mucha energía, ideal para hacerte compañia en tu
+            casa y tambien para llevarlo a todos lados.
           </p>
         </div>
       </SwiperSlide>
@@ -60,9 +62,10 @@ const SwiperComponent = () => {
             width="250"
             className="rounded-2xl border-slate-700 border-2 shadow-md shadow-black"
           />
-          <p className="text-center font-semibold p-5">Pureza certificada</p>
+          <p className="text-center font-semibold p-5">Bulldog Frances</p>
           <p className="text-center font-normal p-5">
-            Aqui ira la descripcion larga sobre los aspectos positivos del perro
+            Raza compacta y cariñosa, ideal para la vida en interiores.
+            Tranquilo y juguetón, es el mejor amigo que puedes tener en casa.
           </p>
         </div>
       </SwiperSlide>
@@ -74,9 +77,10 @@ const SwiperComponent = () => {
             width="250"
             className="rounded-2xl border-slate-700 border-2 shadow-md shadow-black"
           />
-          <p className="text-center font-semibold p-5">Pureza certificada</p>
+          <p className="text-center font-semibold p-5">Yorkshire Terrier</p>
           <p className="text-center font-normal p-5">
-            Aqui ira la descripcion larga sobre los aspectos positivos del perro
+            Pequeño, elegante y lleno de vida. Perfecto para hacerte compañía en
+            casa y disfrutar de paseos juntos por la ciudad.
           </p>
         </div>
       </SwiperSlide>
@@ -88,9 +92,10 @@ const SwiperComponent = () => {
             width="250"
             className="rounded-2xl border-slate-700 border-2 shadow-md shadow-black"
           />
-          <p className="text-center font-semibold p-5">Pureza certificada</p>
+          <p className="text-center font-semibold p-5">Pinscher</p>
           <p className="text-center font-normal p-5">
-            Aqui ira la descripcion larga sobre los aspectos positivos del perro
+            Pequeño pero lleno de energía, el Pinscher es un guardián atento y
+            un compañero fiel, ideal para tu hogar y aventuras diarias.
           </p>
         </div>
       </SwiperSlide>
@@ -102,9 +107,11 @@ const SwiperComponent = () => {
             width="250"
             className="rounded-2xl border-slate-700 border-2 shadow-md shadow-black"
           />
-          <p className="text-center font-semibold p-5">Pureza certificada</p>
+          <p className="text-center font-semibold p-5">Pomerania</p>
           <p className="text-center font-normal p-5">
-            Aqui ira la descripcion larga sobre los aspectos positivos del perro
+            Raza pequeña con un carácter encantador y pelaje esponjoso. Perfecto
+            para hacerte compañía en casa y para llevarlo contigo a todas
+            partes.
           </p>
         </div>
       </SwiperSlide>
@@ -116,9 +123,10 @@ const SwiperComponent = () => {
             width="250"
             className="rounded-2xl border-slate-700 border-2 shadow-md shadow-black"
           />
-          <p className="text-center font-semibold p-5">Pureza certificada</p>
+          <p className="text-center font-semibold p-5">Teckel</p>
           <p className="text-center font-normal p-5">
-            Aqui ira la descripcion larga sobre los aspectos positivos del perro
+            Pequeño y valiente, el Teckel es ideal para la vida en casa y para
+            aventuras al aire libre. Su carácter curioso te encantará.
           </p>
         </div>
       </SwiperSlide>

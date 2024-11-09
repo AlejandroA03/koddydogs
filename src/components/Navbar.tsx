@@ -3,7 +3,6 @@ import logo from "../../public/logo.jpg";
 import Image from "next/image";
 
 const links = [
-  { name: "Home", text: "Inicio", href: "#" },
   { name: "About", text: "Nosotros", href: "#about" },
   { name: "Race", text: "Razas", href: "#race" },
   { name: "Contact", text: "Contacto", href: "#contact" },
@@ -16,7 +15,7 @@ const NavBar: React.FC = () => {
         <Link href="/">
           <Image
             src={logo}
-            width="100"
+            width="75"
             alt="logo"
             className="rounded-full ml-14"
           />
