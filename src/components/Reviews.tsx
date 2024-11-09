@@ -28,7 +28,10 @@ const Reviews = () => {
   }, [items.length]);
 
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div
+      id="about"
+      className="flex flex-col justify-center items-center scroll-mt-20"
+    >
       <h2 className="flex text-black text-5xl font-bold p-5 mt-5">
         Testimonios
       </h2>

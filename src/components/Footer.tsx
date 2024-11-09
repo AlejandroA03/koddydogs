@@ -7,13 +7,16 @@ const Footer = () => {
             © 2024 <a className="hover:underline">Koddydogs</a>
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
-            <a href="#" className="text-black hover:text-white mx-10">
+            <a
+              href="https://www.facebook.com/profile.php?id=61552509125175"
+              className="text-black hover:text-white mx-10"
+            >
               <svg
-                className="w-4 h-4"
+                className="w-7 h-7"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
-                viewBox="0 0 8 19"
+                viewBox="0 0 24 24"
               >
                 <path
                   fill-rule="evenodd"
@@ -23,9 +26,12 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Facebook page</span>
             </a>
-            <a href="#" className="text-black hover:text-white">
+            <a
+              href="https://www.instagram.com/koddydogs/"
+              className="text-black hover:text-white"
+            >
               <svg
-                className="w-5 h-5"
+                className="w-7 h-7"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
