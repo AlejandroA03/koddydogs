@@ -22,7 +22,7 @@ const Portada = () => {
             className="rounded-full"
           />
         </div>
-        <div className="size-64 rounded-full bg-center border-4 border-white shadow-lg mt-10 -ml-16 sm:size-16">
+        <div className="size-64 rounded-full bg-center border-4 border-white shadow-lg mt-10 -ml-16 max-sm:size-16">
           <Image
             src={yorkshire}
             width="248"
