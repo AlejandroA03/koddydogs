@@ -8,7 +8,7 @@ const Extras = () => {
         Lo que recibes con tu cachorro
       </h2>
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
-        <div className="flex flex-col justify-center items-center w-60">
+        <div className="flex flex-col justify-center items-center w-80">
           <Image
             src={cert}
             alt="certificado"
@@ -17,7 +17,7 @@ const Extras = () => {
           />
           <p className="text-center font-semibold p-5">Pureza certificada</p>
         </div>
-        <div className="flex flex-col justify-center items-center w-60">
+        <div className="flex flex-col justify-center items-center w-80">
           <Image
             src={cert}
             alt="certificado"
@@ -28,14 +28,14 @@ const Extras = () => {
             Asesoría y recomendaciones de cuidado
           </p>
         </div>
-        <div className="flex flex-col justify-center items-center w-60">
+        <div className="flex flex-col justify-center items-center w-80">
           <Image
             src={cert}
             alt="certificado"
             width="200"
             className="rounded-xl"
           />
-          <p className="text-center font-semibold p-5">Kit de cuidado.</p>
+          <p className="text-center font-semibold p-5">Kit de cuidado</p>
         </div>
       </div>
     </div>

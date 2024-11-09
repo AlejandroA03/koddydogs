@@ -13,8 +13,16 @@ const items = [
       "Es el primer cachorro que compro, me dieron recomendaciones para cuidarlo y estoy muy agradecido por ese detalle.",
     reviewer: "Pedro Perez",
   },
-  { review: "texto3", reviewer: "Lina Marcela" },
-  { review: "texto4", reviewer: "Jose Jasinto" },
+  {
+    review:
+      "Se encargaron de hacer la entrega del perro ellos mismos, fueron muy profesionales y a la vez se les nota el amor que tienen por los animales.",
+    reviewer: "Lina Marcela",
+  },
+  {
+    review:
+      "Queria el cachorro para un regalo y me cotizaron también un detalle y unos globos, al momento de la entrega mi hija quedó encantada.",
+    reviewer: "Jose Jasinto",
+  },
 ];
 const Reviews = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -35,7 +43,7 @@ const Reviews = () => {
       <h2 className="flex text-black text-5xl font-bold p-5 mt-5">
         Testimonios
       </h2>
-      <div className="flex flex-col transition-opacity duration-500">
+      <div className="flex flex-col transition-opacity duration-500 w-[70%]">
         <span className="text-2xl text-black text-center">
           "{items[currentIndex].review}"
         </span>

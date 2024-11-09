@@ -1,7 +1,7 @@
 import wpplogo from "../../public/whatsapp.png";
 import Image from "next/image";
 const WhatsappButton: React.FC = () => {
-  const whatsappUrl = `https://wa.me/+573127077098`;
+  const whatsappUrl = `https://wa.me/message/ZGDCDXWPIL6JA1`;
 
   return (
     <a
