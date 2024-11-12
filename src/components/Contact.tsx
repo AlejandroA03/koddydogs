@@ -49,7 +49,7 @@ const Contact: React.FC = (): React.ReactElement => {
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-stretch w-[70%]">
           <div className="flex flex-col items-center justify-center">
             <Image src={logo} width="250" alt="logo" className="rounded-full" />
-            <div className="flex bg-white w-fit px-1.25 py-1.25 shadow-box-up rounded-2xl dark:bg-box-dark dark:shadow-box-dark-out">
+            <div className="flex w-fit px-1.25 py-1.25 shadow-box-up rounded-2xl dark:bg-box-dark dark:shadow-box-dark-out">
               <div className="dark:shadow-buttons-box-dark rounded-2xl w-full px-1.5 py-1.5 md:px-3 md:py-3">
                 <button className="hover:text-black text-blue-600 border-2 inline-flex items-center mr-4 last-of-type:mr-0 p-2.5 border-transparent bg-light-secondary shadow-button-flat-nopressed hover:border-2 hover:shadow-button-flat-pressed focus:opacity-100 focus:outline-none active:border-2 active:shadow-button-flat-pressed font-medium rounded-full text-sm text-center ">
                   <svg
@@ -118,14 +118,14 @@ const Contact: React.FC = (): React.ReactElement => {
             className="flex flex-col justify-center items-center"
           >
             <input
-              className="text-black h-[40px] w-[256px] bg-gray-300 rounded-[15px] px-2 outline-0 m-[10px]"
+              className="text-black h-[40px] w-[256px] bg-gray-100 rounded-[15px] px-2 outline-0 m-[10px] border-gray-500 border-2"
               type="text"
               name="user_name"
               placeholder="Nombre"
               required
             />
             <input
-              className="text-black h-[40px] w-[256px] bg-gray-300 rounded-[15px] px-2 outline-0 m-[10px]"
+              className="text-black h-[40px] w-[256px] bg-gray-100 rounded-[15px] px-2 outline-0 m-[10px] border-gray-500 border-2"
               type="email"
               name="user_email"
               placeholder="Correo electrónico"
@@ -134,7 +134,7 @@ const Contact: React.FC = (): React.ReactElement => {
             <textarea
               name="message"
               id=""
-              className="text-black w-[256px] bg-gray-300 rounded-[15px] px-2 outline-0 m-[10px] h-[150px] p-[5px] resize-none"
+              className="text-black w-[256px] bg-gray-100 rounded-[15px] px-2 outline-0 m-[10px] h-[150px] p-[5px] resize-none border-gray-500 border-2"
               placeholder="Escribe aquí tu mensaje"
             ></textarea>
             <button

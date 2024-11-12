@@ -17,7 +17,7 @@ const NavBar: React.FC = () => {
             src={logo}
             width="75"
             alt="logo"
-            className="rounded-full ml-14"
+            className="rounded-full ml-14 max-sm:ml-0"
           />
         </Link>
         <ul>
@@ -26,7 +26,7 @@ const NavBar: React.FC = () => {
               <Link
                 href={link.href}
                 key={link.name}
-                className="text-black font-semibold mx-3"
+                className="text-black font-semibold mx-3 max-sm:mx-1 max-sm:text-sm"
               >
                 {link.text}
               </Link>

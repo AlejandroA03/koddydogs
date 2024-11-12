@@ -38,7 +38,7 @@ const Reviews = () => {
   return (
     <div
       id="about"
-      className="flex flex-col justify-center items-center scroll-mt-20"
+      className="flex flex-col justify-center items-center scroll-mt-20 max-sm:scroll-mt-0"
     >
       <h2 className="flex text-black text-5xl font-bold p-5 mt-5">
         Testimonios
