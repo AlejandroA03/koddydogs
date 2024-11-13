@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Extras from "@/components/Extras";
 import Footer from "@/components/Footer";
@@ -11,6 +12,7 @@ export default function Home() {
     <main>
       <NavBar />
       <Portada />
+      <About />
       <Reviews />
       <Extras />
       <Races />

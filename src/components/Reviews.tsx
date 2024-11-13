@@ -36,21 +36,18 @@ const Reviews = () => {
   }, [items.length]);
 
   return (
-    <div
-      id="about"
-      className="flex flex-col justify-center items-center scroll-mt-20 max-sm:scroll-mt-0"
-    >
-      <h2 className="flex text-black text-5xl font-bold p-5 mt-5">
+    <div className="flex flex-col justify-center items-center">
+      <h2 className="flex text-black text-5xl font-bold p-5 mt-5 max-sm:text-3xl">
         Testimonios
       </h2>
-      <div className="flex flex-col transition-opacity duration-500 w-[70%]">
-        <span className="text-2xl text-black text-center">
+      <div className="flex flex-col transition-opacity duration-500 w-[70%] max-sm:w-[90%]">
+        <span className="text-2xl text-black text-center max-sm:text-lg">
           "{items[currentIndex].review}"
         </span>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center max-sm:-mt-8 max-sm:-mb-8">
           <Image src={stars} width="100" alt="stars" />
         </div>
-        <span className="text-xl text-black text-center font-semibold">
+        <span className="text-xl text-black text-center font-semibold max-sm:text-base">
           {items[currentIndex].reviewer}
         </span>
       </div>

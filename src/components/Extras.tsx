@@ -6,7 +6,7 @@ import kit from "../../public/kit.jpeg";
 const Extras = () => {
   return (
     <div className="flex flex-col justify-center items-center text-black">
-      <h2 className="flex text-5xl font-bold p-5 mt-5">
+      <h2 className="flex text-5xl font-bold p-5 mt-5 max-sm:text-3xl max-sm:text-center max-sm:p-2">
         Lo que recibes con tu cachorro
       </h2>
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">

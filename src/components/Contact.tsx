@@ -43,9 +43,11 @@ const Contact: React.FC = (): React.ReactElement => {
     <>
       <div
         id="contact"
-        className="flex flex-col justify-center items-center text-black"
+        className="flex flex-col justify-center items-center text-black max-sm:scroll-mt-10"
       >
-        <h2 className="flex text-5xl font-bold p-5 mt-5">Contacto</h2>
+        <h2 className="flex text-5xl font-bold p-5 mt-5 max-sm:text-3xl max-sm:p-0">
+          Contacto
+        </h2>
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-stretch w-[70%]">
           <div className="flex flex-col items-center justify-center">
             <Image src={logo} width="250" alt="logo" className="rounded-full" />
