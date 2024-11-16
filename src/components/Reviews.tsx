@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import stars from "../../public/estrella.png";
+import Entregas from "./Entregas";
 const items = [
   {
     review:
@@ -11,17 +12,17 @@ const items = [
   {
     review:
       "Es el primer cachorro que compro, me dieron recomendaciones para cuidarlo y estoy muy agradecido por ese detalle.",
-    reviewer: "Pedro Perez",
+    reviewer: "Daniel Zapata",
   },
   {
     review:
       "Se encargaron de hacer la entrega del perro ellos mismos, fueron muy profesionales y a la vez se les nota el amor que tienen por los animales.",
-    reviewer: "Lina Marcela",
+    reviewer: "Lina Alvarez",
   },
   {
     review:
       "Queria el cachorro para un regalo y me cotizaron también un detalle y unos globos, al momento de la entrega mi hija quedó encantada.",
-    reviewer: "Jose Jasinto",
+    reviewer: "Juan Camilo Castellanos",
   },
 ];
 const Reviews = () => {
@@ -40,6 +41,7 @@ const Reviews = () => {
       <h2 className="flex text-black text-5xl font-bold p-5 mt-5 max-sm:text-3xl">
         Testimonios
       </h2>
+      <Entregas />
       <div className="flex flex-col transition-opacity duration-500 w-[70%] max-sm:w-[90%]">
         <span className="text-2xl text-black text-center max-sm:text-lg">
           "{items[currentIndex].review}"

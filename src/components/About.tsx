@@ -7,8 +7,8 @@ const About = () => {
       <h2 className="flex text-black text-5xl font-bold p-5 mt-5 max-sm:text-3xl">
         Nosotros
       </h2>
-      <div className="flex flex-row w-[70%] items-center max-sm:flex-col max-sm:w-[90%]">
-        <span className="text-2xl text-black text-center px-32 max-sm:text-lg max-sm:px-1">
+      <div className="flex flex-row w-[90%] items-center max-sm:flex-col max-sm:w-[90%] max-md:flex-col lg:w-[70%]">
+        <span className="text-2xl text-black text-center 2xl:px-32 max-sm:text-lg max-sm:px-1 max-lg:px-5 max-md:px-5 max-2xl:px-5">
           Somos una familia apasionada por las mascotas, enfocados en la buena
           crianza desde el amor y respeto hacia estos maravillosos seres de
           cuatro patas que nos llenan de felicidad y complementan nuestras
@@ -16,7 +16,7 @@ const About = () => {
           amigo incondicional que llene de amor y felicidad tu hogar.{" "}
         </span>
         <video
-          className="w-64 rounded-lg mt-5 ml-20 border-4 border-cyan-500 max-sm:ml-0"
+          className="w-64 rounded-lg mt-5 ml-20 border-4 border-cyan-500 max-sm:ml-0 max-md:ml-0"
           controls
           autoPlay
           loop
