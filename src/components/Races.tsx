@@ -1,4 +1,4 @@
-import SwiperComponent from "./SwiperComponent";
+import RacesButtons from "./RacesButtons";
 import WhatsappButton from "./WhatsappButton";
 
 const Races: React.FC = () => {
@@ -8,9 +8,9 @@ const Races: React.FC = () => {
       className="flex flex-col justify-center items-center text-black scroll-mt-20 "
     >
       <h2 className="flex text-5xl font-bold p-5 mt-5 max-sm:text-3xl">
-        Razas
+        Encuentra tu compañero ideal
       </h2>
-      <SwiperComponent />
+      <RacesButtons />
       <WhatsappButton />
     </div>
   );

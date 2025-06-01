@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="mx-auto w-full max-w-screen-xl p-4 py-3">
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-black sm:text-center">
-            © 2024 <a className="hover:underline">Koddydogs</a>
+            © 2025 <a className="hover:underline">Koddydogs</a>
           </span>
 
           <div className="flex mt-4 sm:justify-center sm:mt-0">
@@ -19,9 +19,9 @@ const Footer = () => {
                   >
                     <path
                       fill="currentColor"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M12 4a8 8 0 0 0-6.895 12.06l.569.718-.697 2.359 2.32-.648.379.243A8 8 0 1 0 12 4ZM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.96 9.96 0 0 1-5.016-1.347l-4.948 1.382 1.426-4.829-.006-.007-.033-.055A9.958 9.958 0 0 1 2 12Z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     />
                     <path
                       fill="currentColor"
@@ -44,9 +44,9 @@ const Footer = () => {
                 viewBox="0 0 24 24"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
               <span className="sr-only">Facebook page</span>
@@ -64,9 +64,9 @@ const Footer = () => {
               >
                 <path
                   fill="currentColor"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
 

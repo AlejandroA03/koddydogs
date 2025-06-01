@@ -8,7 +8,7 @@ const About = () => {
         Nosotros
       </h2>
       <div className="flex flex-row w-[90%] items-center max-sm:flex-col max-sm:w-[90%] max-md:flex-col lg:w-[70%]">
-        <span className="text-2xl text-black text-center 2xl:px-32 max-sm:text-lg max-sm:px-1 max-lg:px-5 max-md:px-5 max-2xl:px-5">
+        <span className="text-2xl text-black text-justify 2xl:px-32 max-sm:text-lg max-sm:px-1 max-lg:px-5 max-md:px-5 max-2xl:px-5">
           Somos una familia apasionada por las mascotas, enfocados en la buena
           crianza desde el amor y respeto hacia estos maravillosos seres de
           cuatro patas que nos llenan de felicidad y complementan nuestras

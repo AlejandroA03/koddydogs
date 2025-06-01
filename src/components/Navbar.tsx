@@ -3,9 +3,9 @@ import logo from "../../public/logo.jpg";
 import Image from "next/image";
 
 const links = [
-  { name: "About", text: "Nosotros", href: "#about" },
-  { name: "Race", text: "Razas", href: "#race" },
-  { name: "Contact", text: "Contacto", href: "#contact" },
+  { name: "About", text: "Nosotros", href: "/#about" },
+  { name: "Race", text: "Razas", href: "/#race" },
+  { name: "Contact", text: "Contacto", href: "/#contact" },
 ];
 
 const NavBar: React.FC = () => {

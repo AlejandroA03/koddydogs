@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+import NavBar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import BackgroundPattern from "@/components/Backgroundpattern";
+import patternImage from "../../public/huella.webp";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,7 +19,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <BackgroundPattern image={patternImage} count={30} />
+        <NavBar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
